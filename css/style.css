@@ -247,7 +247,7 @@ a:focus {
   display: block;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 19px 10px;
 }
 .contentTabs .contentTabsNav li a:hover {
   color: black !important;
@@ -269,8 +269,8 @@ a:focus {
 }
 .contentTabs .verticalNavigationArrow, .contentTabs.tabsVerticalLeft .contentTabsNav li.active a:after, .contentTabs.tabsVerticalRight .contentTabsNav li.active a:before {
   top: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
 }
 .contentTabs .horizontalNavigationArrow, .contentTabs.tabsHorizontalTop .contentTabsNav li.active a:after, .contentTabs.tabsHorizontalBottom .contentTabsNav li.active a:before {
   left: 40%;
@@ -286,13 +286,8 @@ a:focus {
   border-right: 1px solid black;
 }
 .contentTabs.tabsVerticalLeft .contentTabsNav li.active a:after {
-  right: -12px;
-  border-left: 12px solid #0096d6;
-}
-.contentTabs.tabsVerticalLeft .contentTabsNav li.active:nth-child(6) a:after, .contentTabs.tabsVerticalLeft .contentTabsNav li.active:nth-child(9) a:after {
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-left: 12px solid #0096d6;
+  right: -16px;
+  border-left: 16px solid #0096d6;
 }
 .contentTabs.tabsVerticalLeft .contentTabsPanelCollection {
   float: right;
@@ -303,8 +298,8 @@ a:focus {
   border-left: 1px solid black;
 }
 .contentTabs.tabsVerticalRight .contentTabsNav li.active a:before {
-  left: -12px;
-  border-right: 12px solid #0096d6;
+  left: -16px;
+  border-right: 16px solid #0096d6;
 }
 .contentTabs.tabsVerticalRight .contentTabsPanelCollection {
   float: left;

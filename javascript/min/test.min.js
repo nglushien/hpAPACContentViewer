@@ -24,6 +24,16 @@ $(document).on('ready', function() {
       }
   });
 
+  // Adjust the padding for the tab menu items that span more than one line
+  var l = $('.contentTabsNav li');
+
+  l.each(function(){
+    var t = $(this).text().length;
+    if(t >= 26){
+      $(this).find('a').css('padding','10px');
+    }
+  })
+
 
 });
 

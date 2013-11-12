@@ -15,8 +15,8 @@ $tab-hover-bgColor: #d4e9f2;
 // vertical tab orientation
 $navigation-vertical-bgColor: #fff;
 $navigation-vertical-width: 204px;
-$navigation-vertical-arrow-width-x: 12px;
-$navigation-vertical-arrow-width-y: 20px;
+$navigation-vertical-arrow-width-x: 16px;
+$navigation-vertical-arrow-width-y: 30px;
 $panel-vertical-width: 915px;
 
 // horizontal tab orientation
@@ -61,7 +61,7 @@ $pinned-panel-top-height: 150px;
         display: block;
         font-size: 14px;
         text-transform: uppercase;
-        padding: 10px;
+        padding: 19px 10px;
 
         &:hover {
           color: $tab-hover-color !important;
@@ -121,12 +121,6 @@ $pinned-panel-top-height: 150px;
       li.active a:after {
         @extend .verticalNavigationArrow;
         right: -$navigation-vertical-arrow-width-x;
-        border-left: $navigation-vertical-arrow-width-x solid $tab-active-bgColor;
-      }
-
-      li.active:nth-child(6) a:after, li.active:nth-child(9) a:after {
-        border-top: 30px solid transparent;
-        border-bottom: 30px solid transparent;
         border-left: $navigation-vertical-arrow-width-x solid $tab-active-bgColor;
       }
 
